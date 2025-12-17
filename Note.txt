@@ -1,0 +1,78 @@
+Starting
+--------------
+
+1. Open CMD
+2. Check is node istalled, "node -v" (cmd prompt)
+3. If not then Install Node js
+
+4. Let's start
+5. Write "npx create-react-app Any_Name" (cmd prompt)
+
+
+
+Run
+---------
+1. open CMD in the project folder (your newly created folder) 
+2. "npm start" (cmd prompt)
+
+close when the cmd turn off
+
+
+
+
+code.
+---------
+
+write rfc(shortcut only work with extension)
+rfce(more better)
+
+it give:
+
+import React from 'react'
+
+function About() {
+  return (
+    <div>About</div>
+  )
+}
+
+export default About
+
+
+
+
+
+in index.js connect
+-
+import About from './About';
+
+
+
+
+Others
+-------
+1. install react router
+npm install react-router-dom
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
