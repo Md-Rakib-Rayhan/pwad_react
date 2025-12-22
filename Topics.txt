@@ -5,5 +5,14 @@ React Router (feature of no reload)
 React Props (Pass Multiple Properties, Data Types etc)
 Destructuring Props
 Event
-list(only map)
+list(only map) (no thers support(for,while,foreach, etc))
 Form (Hook)
+useEffect
+
+ES6
+-export import
+-ternary Operator
+-template String
+
+jsx
+
