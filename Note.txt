@@ -48,11 +48,30 @@ import About from './About';
 
 
 
+Important
+-----------
+After pull the react project form github type
+      - npm i 
+      it will install all package that used in that project (because we never push node_modules in github)
+All previouly used packages data store here "package-lock.json"
 
-Others
+
+Others -> Important
 -------
 1. install react router
-npm install react-router-dom
+        - npm install react-router-dom
+
+2. axios
+        - npm install axios
+
+3. Bootstrap
+        - npm install bootstrap
+        - npm ls bootstrap        -> to check version
+
+
+All installed packages data store here "package-lock.json"
+
+
 
 
 
