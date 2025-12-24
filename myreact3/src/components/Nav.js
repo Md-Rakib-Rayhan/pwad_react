@@ -1,5 +1,6 @@
 import React from 'react'
-import {Link } from "react-router-dom";
+import {Link, NavLink, Scripts } from "react-router-dom";
+
 
 function Nav() {
   return (
@@ -55,10 +56,58 @@ function Nav() {
             </button>
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto py-0">
-                 <Link to="/" className="nav-item nav-link active">Home</Link>
-                 <Link to="/about" className="nav-item nav-link">About</Link>
-                 <Link to="/service" className="nav-item nav-link">Service</Link>
-                 <Link to="/price" className="nav-item nav-link">Pricing</Link>
+
+                 {/* <Link to="/" id='home' className="nav-item nav-link">Home</Link> */}
+                <NavLink to="/" 
+                className = {({ isActive }) => (
+                    isActive ? "nav-item nav-link active" : "nav-item nav-link"
+                    
+                )}
+                >
+                Home
+                </NavLink>
+
+
+
+                 {/* <Link to="/about" className="nav-item nav-link">About</Link> */}
+                <NavLink to="/about" 
+                className = {({ isActive }) => (
+                    isActive ? "nav-item nav-link active" : "nav-item nav-link"
+                    
+                )}
+                >
+                About
+                </NavLink>
+
+                 {/* <Link to="/service" className="nav-item nav-link">Service</Link> */}
+                <NavLink to="/service" 
+                className = {({ isActive }) => (
+                    isActive ? "nav-item nav-link active" : "nav-item nav-link"
+                    
+                )}
+                >
+                Service
+                </NavLink>
+
+                 {/* <Link to="/price" className="nav-item nav-link">Pricing</Link> */}
+                <NavLink to="/price" 
+                className = {({ isActive }) => (
+                    isActive ? "nav-item nav-link active" : "nav-item nav-link"
+                    
+                )}
+                >
+                Pricing
+                </NavLink>
+
+                <NavLink to="/blog" 
+                className = {({ isActive }) => (
+                    isActive ? "nav-item nav-link active" : "nav-item nav-link"
+                    
+                )}
+                >
+                Blog
+                </NavLink>
+
                 <div className="nav-item dropdown">
                      <Link to="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                     <div className="dropdown-menu m-0">

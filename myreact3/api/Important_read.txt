@@ -1,0 +1,3 @@
+Copy the "api" folder and paste it in "htdoces"
+
+Also Change the link in "pages/Blog.js" inside  "function getBlogs()"

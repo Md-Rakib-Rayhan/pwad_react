@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Nav from './components/Nav';
 import { BrowserRouter} from "react-router-dom";
+import Footer from './components/Footer';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +16,8 @@ root.render(
 
     <Nav />
     <App />
+    <Footer />
+
 
     </BrowserRouter>
 

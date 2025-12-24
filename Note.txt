@@ -74,6 +74,20 @@ All installed packages data store here "package-lock.json"
 
 
 
+Link Active
+-----
+<NavLink to="/" 
+        className = {({ isActive }) => (
+            isActive ? "nav-item nav-link active" : "nav-item nav-link"
+                    
+        )}
+        >
+Home
+</NavLink>
+
+
+
+
 
 
 
