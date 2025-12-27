@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 24, 2025 at 08:14 AM
+-- Generation Time: Dec 27, 2025 at 08:08 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -47,7 +47,8 @@ INSERT INTO `blogs` (`id`, `title`, `details`) VALUES
 (7, 'Frontend vs Backend Development', 'A comparison of frontend and backend roles in web development.'),
 (8, 'Learning JavaScript Basics', 'Variables, functions, and loops explained simply.'),
 (9, 'Importance of Version Control', 'Why developers use Git to manage and track code changes.'),
-(10, 'How the Internet Works', 'A simple explanation of servers, browsers, and HTTP requests.');
+(10, 'How the Internet Works', 'A simple explanation of servers, browsers, and HTTP requests.'),
+(11, 'This is new entry from Blog Entry', 'I pushed this data from react to php to mysql');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +68,7 @@ ALTER TABLE `blogs`
 -- AUTO_INCREMENT for table `blogs`
 --
 ALTER TABLE `blogs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

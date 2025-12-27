@@ -3,6 +3,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Service from "./pages/Service";
 import Blog from "./pages/Blog";
+import Testimonial from "./pages/Testimonial";
+import Team from "./pages/Team";
+import Blog_Entry from "./pages/Blog_Entry";
+
+
 
 
 
@@ -17,6 +22,9 @@ function App() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/service" element={<Service />} />
                     <Route path="/blog" element={<Blog />} />
+                    <Route path="/testimonial" element={<Testimonial />} />
+                    <Route path="/team" element={<Team />} />
+                    <Route path="/blog_entry" element={<Blog_Entry />} />
                 </Routes>
             </div>
    

@@ -108,7 +108,38 @@ function Nav() {
                 Blog
                 </NavLink>
 
+                <NavLink to="/blog_entry" 
+                className = {({ isActive }) => (
+                    isActive ? "nav-item nav-link active" : "nav-item nav-link"
+                    
+                )}
+                >
+                Blog Entry
+                </NavLink>
+
                 <div className="nav-item dropdown">
+                     <Link to="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Pages</Link>
+                    <div className="dropdown-menu m-0">
+                        {/* <Link to="/team" className="dropdown-item">The Team</Link> */}
+                        <NavLink to="/team" 
+                            className = {({ isActive }) => (
+                                isActive ? "dropdown-item active" : "nav-item nav-link"
+                                
+                            )}
+                            >
+                        Team
+                        </NavLink>
+                        <NavLink to="/testimonial" 
+                            className = {({ isActive }) => (
+                                isActive ? "dropdown-item active" : "nav-item nav-link"
+                                
+                            )}
+                            >
+                        Testimonial
+                        </NavLink>
+                    </div>
+                </div>
+                {/* <div className="nav-item dropdown">
                      <Link to="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</Link>
                     <div className="dropdown-menu m-0">
                      <Link to="/blog" className="dropdown-item">Blog Grid</Link>
@@ -118,7 +149,7 @@ function Nav() {
                      <Link to="/appointment" className="dropdown-item">Appointment</Link>
                      <Link to="/search" className="dropdown-item">Search</Link>
                     </div>
-                </div>
+                </div> */}
                  <Link to="/contact" className="nav-item nav-link">Contact</Link>
                 </div>
             </div>
