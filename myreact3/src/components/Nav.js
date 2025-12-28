@@ -117,6 +117,7 @@ function Nav() {
                 Blog Entry
                 </NavLink>
 
+
                 <div className="nav-item dropdown">
                      <Link to="/" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">My Pages</Link>
                     <div className="dropdown-menu m-0">
@@ -128,6 +129,14 @@ function Nav() {
                             )}
                             >
                         Team
+                        </NavLink>
+                        <NavLink to="/blog_entry1" 
+                            className = {({ isActive }) => (
+                                isActive ? "dropdown-item active" : "nav-item nav-link"
+                                
+                            )}
+                            >
+                        Blog Entry 1
                         </NavLink>
                         <NavLink to="/testimonial" 
                             className = {({ isActive }) => (

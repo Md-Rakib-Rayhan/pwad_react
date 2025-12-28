@@ -6,6 +6,7 @@ import Blog from "./pages/Blog";
 import Testimonial from "./pages/Testimonial";
 import Team from "./pages/Team";
 import Blog_Entry from "./pages/Blog_Entry";
+import Blog_Entry1 from "./pages/Blog_Entry1";
 
 
 
@@ -25,6 +26,7 @@ function App() {
                     <Route path="/testimonial" element={<Testimonial />} />
                     <Route path="/team" element={<Team />} />
                     <Route path="/blog_entry" element={<Blog_Entry />} />
+                    <Route path="/blog_entry1" element={<Blog_Entry1 />} />
                 </Routes>
             </div>
    

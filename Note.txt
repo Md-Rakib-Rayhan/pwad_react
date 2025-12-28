@@ -68,8 +68,15 @@ Others -> Important
         - npm install bootstrap
         - npm ls bootstrap        -> to check version
 
+4. Form Hook
+        - npm install react-hook-form
+
+5. To Uninstall
+        - npm uninstall react-hook-form
 
 All installed packages data store here "package-lock.json"
+
+
 
 
 
